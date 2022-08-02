@@ -33,7 +33,12 @@
 <div class="col-4 offset-1">
     <h1>Информация</h1>
     <div class="alert alert-danger">
-        Погода в Минске
+        <div class="alert alert-danger">
+            <b>Город</b>{{info.city}}<br>
+            <b>Температура</b>{{info.temp}}<sup>0</sup><br>
+            <img src="http://openweathermap.org/img/w/{{info.icon}}.png" alt="Фото погоды" class="img-thunbnail">
+
+        </div>
     </div>
 </div>
 
